@@ -1,0 +1,60 @@
+html,body{
+  height:100%;
+  margin:0px;
+  padding:0px;
+overflow-y: hidden;
+}
+
+body{
+  font-family:arial;
+  font-size:30pt;
+}
+
+main{
+  height:100%;
+  width:2600%;
+  display:flex;
+  align-items: center;
+  flex-direction:row;
+  bzckground-color:white;
+}
+
+.card{
+  height:100%;
+  width:100%;
+    display:flex;
+  align-items: center;
+  flex-direction:column;
+}
+
+.image{
+  width:100%;
+  height:calc(100% - 200px);
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.image img{
+  height:100%;
+  width:100%;
+object-fit: scale-down;
+}
+
+.letter{
+  font-size:60pt;
+  text-align:center;
+}
+
+.label{
+  text-align:center;
+}
+
+.invisible {
+  transition: opacity 0.5s ease;
+  opacity: 0.0;
+}
+
+.visible {
+  transition: opacity 0.5s ease;
+  opacity: 1.0;
+}
