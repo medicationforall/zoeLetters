@@ -17,7 +17,7 @@ function LetterCard(options){
     if ('speechSynthesis' in window) {
       var msg = new SpeechSynthesisUtterance();
       var voices = speechSynthesis.getVoices();
-      msg.voice = voices[1];
+      msg.voice = voices[0];
       msg.text = 'The letter "'+card.letter+'" stands for '+card.label;
       speechSynthesis.speak(msg);
     }
@@ -40,7 +40,7 @@ function LetterCard(options){
     }else if(card.textSound && 'speechSynthesis' in window){
       var msg = new SpeechSynthesisUtterance();
       var voices = speechSynthesis.getVoices();
-      msg.voice = voices[1];
+      msg.voice = voices[0];
       msg.pitch = 2;
       msg.text = card.textSound;
       speechSynthesis.speak(msg);
