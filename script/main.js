@@ -21,16 +21,67 @@ $(document).ready(function(){
   var letters = [
   //{"letter":"a","label":"Apple","image":"12197659796_46448fa0d3_o.jpg"},
   {
-    "letter":"a",
-    "label":"Alligator",
-    "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Alligator_Canberra_Zoo.jpg/1280px-Alligator_Canberra_Zoo.jpg",
-    "sound":"https://www.google.com/logos/fnbx/animal_sounds/alligator.mp3"
+    multi:[
+      {
+        "letter":"a",
+        "label":"Alligator",
+        "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Alligator_Canberra_Zoo.jpg/1280px-Alligator_Canberra_Zoo.jpg",
+        "sound":"https://www.google.com/logos/fnbx/animal_sounds/alligator.mp3",
+        "color":"#4caf50"
+      },    
+      {
+        "letter":"a",
+        "label":"Alpaca",
+        "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Rose_Hill_Farm_Alpaca_03.jpg/768px-Rose_Hill_Farm_Alpaca_03.jpg",
+        "sound":"https://www.google.com/logos/fnbx/animal_sounds/alpaca.mp3",
+        "color":"tan"
+      },
+      {
+        "letter":"a",
+        "label":"Anteater",
+        "image":"https://upload.wikimedia.org/wikipedia/commons/6/68/Myrmecophaga_tridactyla_by_anagoria.jpg",
+        "sound":"https://www.google.com/logos/fnbx/animal_sounds/anteater.mp3",
+        "color":"#4caf50"
+      },
+      {
+        "letter":"a",
+        "label":"Antelope",
+        "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Blesbok_sa_2003.jpg/1280px-Blesbok_sa_2003.jpg",
+        "sound":"https://www.google.com/logos/fnbx/animal_sounds/antelope.mp3",
+        "color":"tan"
+      }
+    ]
   },
   {
-    "letter":"b",
-    "label":"Bird",
-    "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Cyanocitta-cristata-004.jpg/1280px-Cyanocitta-cristata-004.jpg",
-    "sound":"https://www.google.com/logos/fnbx/animal_sounds/robin.mp3"
+    multi:[
+      {
+        "letter":"b",
+        "label":"Bird",
+        "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Cyanocitta-cristata-004.jpg/1280px-Cyanocitta-cristata-004.jpg",
+        "sound":"https://www.google.com/logos/fnbx/animal_sounds/robin.mp3"
+      },    
+      {
+        "letter":"b",
+        "label":"Bat",
+        "image":"https://upload.wikimedia.org/wikipedia/commons/d/d2/Pteropus_conspicillatus_with_baby.jpg",
+        "sound":"https://www.google.com/logos/fnbx/animal_sounds/bat.mp3",
+        "color":"grey"
+      },
+      {
+        "letter":"b",
+        "label":"Bee",
+        "image":"https://upload.wikimedia.org/wikipedia/commons/d/d0/Abeille_Bee_%286231908274%29.jpg",
+        "sound":"https://www.google.com/logos/fnbx/animal_sounds/bee.mp3",
+        "color":"yellow"
+      },
+      {
+        "letter":"b",
+        "label":"Buffalo",
+        "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Lone_Buffalo_AWBF-6.jpg/1280px-Lone_Buffalo_AWBF-6.jpg",
+        "sound":"https://www.google.com/logos/fnbx/animal_sounds/buffalo.mp3",
+        "color":"brown"
+      }
+    ]
   },
   {
     "letter":"c",
@@ -48,37 +99,43 @@ $(document).ready(function(){
     "letter":"e",
     "label":"Elephant",
     "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Elephant_%28Loxodonta_Africana%29_05.jpg/1280px-Elephant_%28Loxodonta_Africana%29_05.jpg",
-    "sound":"https://www.google.com/logos/fnbx/animal_sounds/elephant.mp3"
+    "sound":"https://www.google.com/logos/fnbx/animal_sounds/elephant.mp3",
+    "color":"silver"
   },
   {
     "letter":"f",
     "label":"Fox",
     "image":"https://upload.wikimedia.org/wikipedia/commons/d/df/Fox_study_6.jpg",
-    "textSound":"Ring-ding-ding-ding-dingeringeding!"
+    "textSound":"Ring-ding-ding-ding-dingeringeding!",
+    "color":"orange"
   },
   {
     "letter":"g",
     "label":"Giraffe",
     "image":"https://upload.wikimedia.org/wikipedia/commons/0/02/Giraffe_Ithala_KZN_South_Africa_Luca_Galuzzi_2004.JPG",
-    "sound":"https://www.google.com/logos/fnbx/animal_sounds/giraffe.mp3"
+    "sound":"https://www.google.com/logos/fnbx/animal_sounds/giraffe.mp3",
+    "color":"yellow"
   },
   {
     "letter":"h",
     "label":"Horse",
     "image":"https://upload.wikimedia.org/wikipedia/commons/e/e6/IcelandicHorseInWinter.jpg",
-    "sound":"https://www.google.com/logos/fnbx/animal_sounds/horse.mp3"
+    "sound":"https://www.google.com/logos/fnbx/animal_sounds/horse.mp3",
+    "color":"brown"
   },
   {
     "letter":"i",
     "label":"Iguana",
     "image":"https://upload.wikimedia.org/wikipedia/commons/7/7f/Iguana_V.jpg",
-    "sound":"https://www.google.com/logos/fnbx/animal_sounds/lizard.mp3"
+    "sound":"https://www.google.com/logos/fnbx/animal_sounds/lizard.mp3",
+    "color":"lime"
   },
   {
     "letter":"j",
     "label":"Jellyfish",
     "image":"https://upload.wikimedia.org/wikipedia/commons/4/44/Jelly_cc11.jpg",
-    "textSound":"Blub Blub"
+    "textSound":"Blub Blub",
+    "color":"#2196f3"
   },
   {
     "letter":"k",
@@ -90,7 +147,8 @@ $(document).ready(function(){
     "letter":"l",
     "label":"Lion",
     "image":"https://upload.wikimedia.org/wikipedia/commons/b/b5/Lion_d%27Afrique.jpg",
-    "sound":"https://www.google.com/logos/fnbx/animal_sounds/lion.mp3"
+    "sound":"https://www.google.com/logos/fnbx/animal_sounds/lion.mp3",
+    "color":"gold"
   },
   {
     "letter":"m",
@@ -102,7 +160,8 @@ $(document).ready(function(){
     "letter":"n",
     "label":"Nautilus",
     "image":"https://upload.wikimedia.org/wikipedia/commons/d/d5/Nautilus_Palau.JPG",
-    "sound":"http://alphabetimals.com/wp-content/uploads/sounds/x-sound.mp3"
+    "sound":"http://alphabetimals.com/wp-content/uploads/sounds/x-sound.mp3",
+    "color":"#2196f3"
   },
   {
     "letter":"o",
@@ -113,7 +172,8 @@ $(document).ready(function(){
     "letter":"p",
     "label":"Parrot",
     "image":"https://upload.wikimedia.org/wikipedia/commons/d/d7/Amazona_autumnalis_-The_Parrot_Zoo%2C_Friskney%2C_Lincolnshire%2C_England-8a-2c.jpg",
-    "sound":"https://www.google.com/logos/fnbx/animal_sounds/african-grey-parrot.mp3"
+    "sound":"https://www.google.com/logos/fnbx/animal_sounds/african-grey-parrot.mp3",
+    "color":"#4caf50"
   },
   {
     "letter":"q",
@@ -135,7 +195,8 @@ $(document).ready(function(){
     "letter":"t",
     "label":"Tiger",
     "image":"https://upload.wikimedia.org/wikipedia/commons/d/d4/Siberian_Tiger_by_Malene_Th.jpg",
-    "sound":"https://www.google.com/logos/fnbx/animal_sounds/tiger.mp3"
+    "sound":"https://www.google.com/logos/fnbx/animal_sounds/tiger.mp3",
+    color:"orange"
   },
   {
     "letter":"u",
@@ -152,13 +213,15 @@ $(document).ready(function(){
     "letter":"w",
     "label":"Whale",
     "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Mother_and_baby_sperm_whale.jpg/1280px-Mother_and_baby_sperm_whale.jpg",
-    "sound":"https://www.google.com/logos/fnbx/animal_sounds/humpback-whale.mp3"
+    "sound":"https://www.google.com/logos/fnbx/animal_sounds/humpback-whale.mp3",
+    "color":"#2196f3"
   },
   {
     "letter":"x",
     "label":"Xerus",
     "image":"https://upload.wikimedia.org/wikipedia/commons/d/d2/Xerus_inauris.jpg",
-    "sound":"http://alphabetimals.com/wp-content/uploads/sounds/r-sound.mp3"
+    "sound":"http://alphabetimals.com/wp-content/uploads/sounds/r-sound.mp3",
+    "color":"tan"
   },
   {
     "letter":"y",

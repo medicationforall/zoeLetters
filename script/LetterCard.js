@@ -23,7 +23,7 @@ function LetterCard(options){
     }
   },null,this));
   
-    /**
+  /**
    *
    */
   this.node.on('click','.image',$.proxy(function(card,event){
@@ -51,12 +51,23 @@ function LetterCard(options){
    *
    */
   this._construct=function(){
-    this.setLetter(options.letter);
-    this.setLabel(options.label);
-    this.setImage(options.image);
-    this.setSound(options.sound);
-    this.setTextSound(options.textSound);
-    
+    if(options.multi){
+      var data = options.multi[Math.floor(Math.random()*options.multi.length)];
+      this.setLetter(data.letter);
+      this.setLabel(data.label);
+      this.setImage(data.image);
+      this.setSound(data.sound);
+      this.setTextSound(data.textSound);
+      this.setColor(data.color);
+      
+    }else{
+      this.setLetter(options.letter);
+      this.setLabel(options.label);
+      this.setImage(options.image);
+      this.setSound(options.sound);
+      this.setTextSound(options.textSound);
+      this.setColor(options.color);
+    }
   }
   
   /**
@@ -75,6 +86,17 @@ function LetterCard(options){
     if(label){
       this.label=label;
       this.node.find('.label').text(this.label);
+    }
+  };
+  
+  /**
+   *
+   */  
+  this.setColor=function(color){
+    if(color){
+      this.color=color;
+    }else{
+      this.color="white";
     }
   };
   
@@ -114,7 +136,8 @@ function LetterCard(options){
    *
    */
   this.scrollIn=function(){
-    console.log('scroll in event',this.letter);
+    console.log('scroll in event',this.letter,this.color);
+    $('main').css('background-color',this.color);
   }
   
   /**
