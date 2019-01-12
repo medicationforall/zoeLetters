@@ -51,7 +51,7 @@ function LetterCard(options){
    *
    */
   this._construct=function(){
-    if(options.multi){
+    /*if(options.multi){
       var data = options.multi[Math.floor(Math.random()*options.multi.length)];
       this.setLetter(data.letter);
       this.setLabel(data.label);
@@ -60,14 +60,14 @@ function LetterCard(options){
       this.setTextSound(data.textSound);
       this.setColor(data.color);
       
-    }else{
+    }else{*/
       this.setLetter(options.letter);
       this.setLabel(options.label);
       this.setImage(options.image);
       this.setSound(options.sound);
       this.setTextSound(options.textSound);
       this.setColor(options.color);
-    }
+    //}
   }
   
   /**

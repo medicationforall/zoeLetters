@@ -80,55 +80,173 @@ $(document).ready(function(){
         "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Lone_Buffalo_AWBF-6.jpg/1280px-Lone_Buffalo_AWBF-6.jpg",
         "sound":"https://www.google.com/logos/fnbx/animal_sounds/buffalo.mp3",
         "color":"brown"
+      },
+      {
+        "letter":"b",
+        "label":"Butterfly",
+        "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Marbled_fritillary_%28Brenthis_daphne%29.jpg/1280px-Marbled_fritillary_%28Brenthis_daphne%29.jpg",
+        "sound":"https://www.google.com/logos/fnbx/animal_sounds/butterfly.mp3"
       }
     ]
   },
   {
+    multi:[
+    {
     "letter":"c",
     "label":"Cat",
     "image":"https://upload.wikimedia.org/wikipedia/commons/4/4d/Cat_November_2010-1a.jpg",
     "sound":"https://www.google.com/logos/fnbx/animal_sounds/cat.mp3"
+    },
+    {
+    "letter":"c",
+    "label":"Camel",
+    "image":"https://upload.wikimedia.org/wikipedia/commons/6/6d/Brosen_camelus1.jpg",
+    "sound":"https://www.google.com/logos/fnbx/animal_sounds/camel.mp3",
+    "color":"tan"
+    },
+    {
+    "letter":"c",
+    "label":"Chicken",
+    "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Gallus_gallus_domesticus_LC0262.jpg/1024px-Gallus_gallus_domesticus_LC0262.jpg",
+    "sound":"https://www.google.com/logos/fnbx/animal_sounds/chicken.mp3",
+    "color":"tomato"
+    },
+    {
+    "letter":"c",
+    "label":"Cow",
+    "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Light_Roan_Shorthorn_Heifer_DSCN1872b.jpg/1280px-Light_Roan_Shorthorn_Heifer_DSCN1872b.jpg",
+    "sound":"https://www.google.com/logos/fnbx/animal_sounds/cow.mp3"
+    },
+    {
+    "letter":"c",
+    "label":"Crow",
+    "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Corvus_corax_ad_berlin_090516.jpg/1280px-Corvus_corax_ad_berlin_090516.jpg",
+    "sound":"https://www.google.com/logos/fnbx/animal_sounds/crow.mp3",
+    "color":"grey"
+    }
+    ]
   },
   {
-    "letter":"d",
-    "label":"Dog",
-    "image":"https://upload.wikimedia.org/wikipedia/commons/b/b3/Siberian_husky2.jpg",
-    "sound":"https://www.google.com/logos/fnbx/animal_sounds/dog.mp3"
+    multi:[
+      {
+        "letter":"d",
+        "label":"Dog",
+        "image":"https://upload.wikimedia.org/wikipedia/commons/b/b3/Siberian_husky2.jpg",
+        "sound":"https://www.google.com/logos/fnbx/animal_sounds/dog.mp3"
+      },
+      {
+        "letter":"d",
+        "label":"Dove",
+        "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Ducula_spilorrhoa_2.jpg/1140px-Ducula_spilorrhoa_2.jpg",
+        "sound":"https://www.google.com/logos/fnbx/animal_sounds/dove.mp3",
+        "color":"ivory"
+      },
+      {
+        "letter":"d",
+        "label":"Duck",
+        "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/White-cheeked_Pintail_RWD.jpg/1024px-White-cheeked_Pintail_RWD.jpg",
+        "sound":"https://www.google.com/logos/fnbx/animal_sounds/duck.mp3"
+      }
+    ]
   },
   {
-    "letter":"e",
-    "label":"Elephant",
-    "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Elephant_%28Loxodonta_Africana%29_05.jpg/1280px-Elephant_%28Loxodonta_Africana%29_05.jpg",
-    "sound":"https://www.google.com/logos/fnbx/animal_sounds/elephant.mp3",
-    "color":"silver"
+    multi:[
+      {
+        "letter":"e",
+        "label":"Elephant",
+        "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Elephant_%28Loxodonta_Africana%29_05.jpg/1280px-Elephant_%28Loxodonta_Africana%29_05.jpg",
+        "sound":"https://www.google.com/logos/fnbx/animal_sounds/elephant.mp3",
+        "color":"silver"
+      }
+    ]
   },
   {
-    "letter":"f",
-    "label":"Fox",
-    "image":"https://upload.wikimedia.org/wikipedia/commons/d/df/Fox_study_6.jpg",
-    "textSound":"Ring-ding-ding-ding-dingeringeding!",
-    "color":"orange"
+    multi:[
+      {
+        "letter":"f",
+        "label":"Fox",
+        "image":"https://upload.wikimedia.org/wikipedia/commons/d/df/Fox_study_6.jpg",
+        "textSound":"Ring-ding-ding-ding-dingeringeding!",
+        "color":"orange"
+      },
+      {
+        "letter":"f",
+        "label":"Falcon",
+        "image":"https://upload.wikimedia.org/wikipedia/commons/0/0c/Red-Necked_Falcon.JPG",
+        "sound":"https://www.google.com/logos/fnbx/animal_sounds/falcon.mp3"
+      },
+      {
+        "letter":"f",
+        "label":"Ferret",
+        "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Ferret_2008.png/1024px-Ferret_2008.png",
+        "sound":"https://www.google.com/logos/fnbx/animal_sounds/ferret.mp3"
+      },
+      {
+        "letter":"f",
+        "label":"Frog",
+        "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Common_frog_rana_temporaria.jpg/1280px-Common_frog_rana_temporaria.jpg",
+        "sound":"https://www.google.com/logos/fnbx/animal_sounds/frog.mp3",
+        "color":"forestgreen"
+      }
+    ]
   },
   {
-    "letter":"g",
-    "label":"Giraffe",
-    "image":"https://upload.wikimedia.org/wikipedia/commons/0/02/Giraffe_Ithala_KZN_South_Africa_Luca_Galuzzi_2004.JPG",
-    "sound":"https://www.google.com/logos/fnbx/animal_sounds/giraffe.mp3",
-    "color":"yellow"
+    multi:[
+      {
+        "letter":"g",
+        "label":"Giraffe",
+        "image":"https://upload.wikimedia.org/wikipedia/commons/0/02/Giraffe_Ithala_KZN_South_Africa_Luca_Galuzzi_2004.JPG",
+        "sound":"https://www.google.com/logos/fnbx/animal_sounds/giraffe.mp3",
+        "color":"yellow"
+      },
+      {
+        "letter":"g",
+        "label":"Guinea Pig",
+        "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Cavia.jpg/720px-Cavia.jpg",
+        "sound":"https://www.google.com/logos/fnbx/animal_sounds/guinea-pig.mp3"
+      }    
+    ]
   },
   {
-    "letter":"h",
-    "label":"Horse",
-    "image":"https://upload.wikimedia.org/wikipedia/commons/e/e6/IcelandicHorseInWinter.jpg",
-    "sound":"https://www.google.com/logos/fnbx/animal_sounds/horse.mp3",
-    "color":"brown"
+    multi:[
+      {
+        "letter":"h",
+        "label":"Horse",
+        "image":"https://upload.wikimedia.org/wikipedia/commons/e/e6/IcelandicHorseInWinter.jpg",
+        "sound":"https://www.google.com/logos/fnbx/animal_sounds/horse.mp3",
+        "color":"brown"
+      },
+      {
+        "letter":"h",
+        "label":"Hedgehog",
+        "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Erinaceus_europaeus_LC0119.jpg/1280px-Erinaceus_europaeus_LC0119.jpg",
+        "sound":"https://www.google.com/logos/fnbx/animal_sounds/hedgehog.mp3"
+      },
+      {
+        "letter":"h",
+        "label":"Hippopotamus",
+        "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Hroch_obojzivelny.jpg/1280px-Hroch_obojzivelny.jpg",
+        "sound":"https://www.google.com/logos/fnbx/animal_sounds/hippopotamus.mp3",
+        "color":"pink"
+      },
+      {
+        "letter":"h",
+        "label":"Hyena",
+        "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Hyene_amneville.JPG/1280px-Hyene_amneville.JPG",
+        "sound":"https://www.google.com/logos/fnbx/animal_sounds/hyena.mp3"
+      }
+    ]
   },
   {
-    "letter":"i",
-    "label":"Iguana",
-    "image":"https://upload.wikimedia.org/wikipedia/commons/7/7f/Iguana_V.jpg",
-    "sound":"https://www.google.com/logos/fnbx/animal_sounds/lizard.mp3",
-    "color":"lime"
+    multi:[
+    {
+      "letter":"i",
+      "label":"Iguana",
+      "image":"https://upload.wikimedia.org/wikipedia/commons/7/7f/Iguana_V.jpg",
+      "sound":"https://www.google.com/logos/fnbx/animal_sounds/lizard.mp3",
+      "color":"lime"
+    }
+    ]
   },
   {
     "letter":"j",
@@ -138,23 +256,55 @@ $(document).ready(function(){
     "color":"#2196f3"
   },
   {
+    multi:[
+    {
     "letter":"k",
     "label":"Koala",
     "image":"https://upload.wikimedia.org/wikipedia/commons/2/25/Friendly_Female_Koala.JPG",
     "sound":"http://alphabetimals.com/wp-content/uploads/sounds/g-sound.mp3"
+    },
+    {
+    "letter":"k",
+    "label":"Komodo Dragon",
+    "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Varanus_komodoensis5.jpg/1280px-Varanus_komodoensis5.jpg",
+    "sound":"https://www.google.com/logos/fnbx/animal_sounds/komodo-dragon.mp3"
+    }
+    ]
   },
   {
+    multi:[
+    {
     "letter":"l",
     "label":"Lion",
     "image":"https://upload.wikimedia.org/wikipedia/commons/b/b5/Lion_d%27Afrique.jpg",
     "sound":"https://www.google.com/logos/fnbx/animal_sounds/lion.mp3",
     "color":"gold"
+    },
+    {
+    "letter":"l",
+    "label":"Leopard",
+    "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Amur_Leopard_%28219987133%29.jpeg/1280px-Amur_Leopard_%28219987133%29.jpeg",
+    "sound":"https://www.google.com/logos/fnbx/animal_sounds/leopard.mp3",
+    "color":"gold"
+    }
+
+    ]
   },
   {
-    "letter":"m",
+    multi:[
+    {
+      "letter":"m",
     "label":"Mouse",
     "image":"https://upload.wikimedia.org/wikipedia/commons/8/83/Mouse-19-Dec-2004.jpg",
     "sound":"http://alphabetimals.com/wp-content/uploads/sounds/m-sound-mouse.mp3"
+    },
+    {
+    "letter":"m",
+    "label":"Moose",
+    "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/J%C3%A1vorszarvas.jpg/1280px-J%C3%A1vorszarvas.jpg",
+    "sound":"https://www.google.com/logos/fnbx/animal_sounds/moose.mp3"
+    }
+    ]
   },
   {
     "letter":"n",
@@ -164,16 +314,42 @@ $(document).ready(function(){
     "color":"#2196f3"
   },
   {
-    "letter":"o",
-    "label":"Ostrich",
-    "image":"https://upload.wikimedia.org/wikipedia/commons/2/28/Ostrich_male_RWD.jpg"
+    multi:[
+    {
+      "letter":"o",
+      "label":"Ostrich",
+      "image":"https://upload.wikimedia.org/wikipedia/commons/2/28/Ostrich_male_RWD.jpg"
+    },
+    {
+      "letter":"o",
+      "label":"Otter",
+      "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Curious_Otter_%2815067291649%29.jpg/1280px-Curious_Otter_%2815067291649%29.jpg",
+      "sound":"https://www.google.com/logos/fnbx/animal_sounds/otter.mp3"
+    },
+    {
+      "letter":"o",
+      "label":"Owl",
+      "image":"https://upload.wikimedia.org/wikipedia/commons/3/39/Athene_noctua_%28cropped%29.jpg",
+      "sound":"https://www.google.com/logos/fnbx/animal_sounds/owl.mp3"
+    }
+    ]
   },
   {
-    "letter":"p",
-    "label":"Parrot",
-    "image":"https://upload.wikimedia.org/wikipedia/commons/d/d7/Amazona_autumnalis_-The_Parrot_Zoo%2C_Friskney%2C_Lincolnshire%2C_England-8a-2c.jpg",
-    "sound":"https://www.google.com/logos/fnbx/animal_sounds/african-grey-parrot.mp3",
-    "color":"#4caf50"
+    multi:[
+    {  
+      "letter":"p",
+      "label":"Parrot",
+      "image":"https://upload.wikimedia.org/wikipedia/commons/d/d7/Amazona_autumnalis_-The_Parrot_Zoo%2C_Friskney%2C_Lincolnshire%2C_England-8a-2c.jpg",
+      "sound":"https://www.google.com/logos/fnbx/animal_sounds/african-grey-parrot.mp3",
+      "color":"#4caf50"
+    },
+    {  
+      "letter":"p",
+      "label":"Panda",
+      "image":"https://upload.wikimedia.org/wikipedia/commons/c/c2/Pandas_Chengdu.JPG",
+      "sound":"https://www.google.com/logos/fnbx/animal_sounds/panda.mp3"
+    }
+    ]
   },
   {
     "letter":"q",
@@ -237,11 +413,24 @@ $(document).ready(function(){
   },
   ];
   
-  
+  var displayAll=false;
   
   for(var i = 0,letter;(letter=letters[i]);i++){
-    var letterCard = new LetterCard(letter);
-    $('main').append(letterCard.node);
+    if(letter.multi){
+      if(displayAll){
+        for(var j=0,sub;(sub=letter.multi[j]);j++){
+          var letterCard = new LetterCard(sub);
+          $('main').append(letterCard.node);
+        }
+      }else{
+        var selectedLetter = letter.multi[Math.floor(Math.random()*letter.multi.length)];
+        var letterCard = new LetterCard(selectedLetter);
+        $('main').append(letterCard.node);
+      }
+    }else{
+      var letterCard = new LetterCard(letter);
+      $('main').append(letterCard.node);
+    }
   }
   
   
