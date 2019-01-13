@@ -16,9 +16,12 @@ function LetterCard(options){
     
     if ('speechSynthesis' in window) {
       var msg = new SpeechSynthesisUtterance();
-      var voices = speechSynthesis.getVoices();
-      msg.voice = voices[0];
-      msg.text = 'The letter "'+card.letter+'" stands for '+card.label;
+      //var voices = speechSynthesis.getVoices();
+      /*for(var i=0,voice;(voice=voices[i]);i++){
+        console.log('voice is',voice);
+      }*/
+      //msg.voice = voices[0];
+      msg.text = 'The letter "'+card.letter+'" for '+card.label;
       speechSynthesis.speak(msg);
     }
   },null,this));

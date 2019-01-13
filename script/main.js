@@ -348,6 +348,18 @@ $(document).ready(function(){
       "label":"Panda",
       "image":"https://upload.wikimedia.org/wikipedia/commons/c/c2/Pandas_Chengdu.JPG",
       "sound":"https://www.google.com/logos/fnbx/animal_sounds/panda.mp3"
+    },
+    {  
+      "letter":"p",
+      "label":"Penguin",
+      "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Emperor-walk_hg.jpg/762px-Emperor-walk_hg.jpg",
+      "sound":"https://www.google.com/logos/fnbx/animal_sounds/penguin.mp3"
+    },
+    {  
+      "letter":"p",
+      "label":"Pig",
+      "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Sus_scrofa_domesticus%2C_miniature_pig%2C_juvenile.jpg/1280px-Sus_scrofa_domesticus%2C_miniature_pig%2C_juvenile.jpg",
+      "sound":"https://www.google.com/logos/fnbx/animal_sounds/pig.mp3"
     }
     ]
   },
@@ -358,9 +370,50 @@ $(document).ready(function(){
     "sound":"http://alphabetimals.com/wp-content/uploads/sounds/q-sound.mp3"
   },
   {
+    multi:[
+    {
     "letter":"r",
     "label":"Rabbit",
-    "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Young_Netherland_Dwarf_rabbit.jpg/1280px-Young_Netherland_Dwarf_rabbit.jpg"
+    "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Young_Netherland_Dwarf_rabbit.jpg/1280px-Young_Netherland_Dwarf_rabbit.jpg",
+    "sound":"https://www.google.com/logos/fnbx/animal_sounds/rabbit.mp3"
+    },
+    {
+    "letter":"r",
+    "label":"Raccoon",
+    "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Three_raccoons_in_a_tree.jpg/1280px-Three_raccoons_in_a_tree.jpg",
+    "sound":"https://www.google.com/logos/fnbx/animal_sounds/raccoon.mp3"
+    },
+    {
+    "letter":"r",
+    "label":"Rattlesnake",
+    "image":"https://upload.wikimedia.org/wikipedia/commons/d/d4/Crotalus_ruber_02.jpg",
+    "sound":"https://www.google.com/logos/fnbx/animal_sounds/rattlesnake.mp3"
+    },
+    {
+    "letter":"r",
+    "label":"Rat",
+    "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Sister_ratties_1.jpg/1280px-Sister_ratties_1.jpg",
+    "sound":"https://www.google.com/logos/fnbx/animal_sounds/rat.mp3"
+    },
+    {
+    "letter":"r",
+    "label":"Rhinoceros",
+    "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Indian_rhinoceros_%28Cincinnati_Zoo%29.jpg/1280px-Indian_rhinoceros_%28Cincinnati_Zoo%29.jpg",
+    "sound":"https://www.google.com/logos/fnbx/animal_sounds/rhinoceros.mp3"
+    },
+    {
+    "letter":"r",
+    "label":"Robin",
+    "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/European_robin_%28Erithacus_rubecula%29_juvenile.jpg/1280px-European_robin_%28Erithacus_rubecula%29_juvenile.jpg",
+    "sound":"https://www.google.com/logos/fnbx/animal_sounds/robin.mp3"
+    },
+    {
+    "letter":"r",
+    "label":"Rooster",
+    "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/1%2C0_Deutsches_Langschan%2C_braunbr%C3%BCstig.JPG/1280px-1%2C0_Deutsches_Langschan%2C_braunbr%C3%BCstig.JPG",
+    "sound":"https://www.google.com/logos/fnbx/animal_sounds/rooster.mp3"
+    }
+    ]
   },
   {
     "letter":"s",
