@@ -70,6 +70,8 @@ function LetterCard(options){
       this.setSound(options.sound);
       this.setTextSound(options.textSound);
       this.setColor(options.color);
+      
+      LetterCard.count++;
     //}
   }
   
@@ -152,3 +154,5 @@ function LetterCard(options){
   
   this._construct();
 }
+
+LetterCard.count = 0;
