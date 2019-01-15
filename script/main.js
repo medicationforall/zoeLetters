@@ -159,6 +159,20 @@ $(document).ready(function(){
     "image":"https://upload.wikimedia.org/wikipedia/commons/2/20/Eastern_chipmonk%2C_avalon_%2836329226980%29.jpg",
     "sound":"sound/Chipmonk+Talk.mp3",
     "color":"#d9dcaf"
+    },
+    {
+    "letter":"c",
+    "label":"Coyote",
+    "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Coyote2008.jpg/1280px-Coyote2008.jpg",
+    "sound":"sound/coyote1.mp3",
+    "color":"#d9dad8"
+    },
+    {
+    "letter":"c",
+    "label":"Crocodile",
+    "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Marsh_Crocodiles_basking_in_the_sun.JPG/1280px-Marsh_Crocodiles_basking_in_the_sun.JPG",
+    "sound":"sound/crocodile5.mp3",
+    "color":"#d9dad8"
     }
     ]
   },
@@ -184,6 +198,13 @@ $(document).ready(function(){
         "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/White-cheeked_Pintail_RWD.jpg/1024px-White-cheeked_Pintail_RWD.jpg",
         "sound":"https://www.google.com/logos/fnbx/animal_sounds/duck.mp3",
         "color":"#a3aab3"
+      },
+      {
+        "letter":"d",
+        "label":"Dolphin",
+        "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Tursiops_truncatus_01-cropped.jpg/1280px-Tursiops_truncatus_01-cropped.jpg",
+        "sound":"sound/dolphin1.mp3",
+        "color":"#a3aab3"
       }
     ]
   },
@@ -195,6 +216,13 @@ $(document).ready(function(){
         "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Elephant_%28Loxodonta_Africana%29_05.jpg/1280px-Elephant_%28Loxodonta_Africana%29_05.jpg",
         "sound":"https://www.google.com/logos/fnbx/animal_sounds/elephant.mp3",
         "color":"silver"
+      },
+      {
+        "letter":"e",
+        "label":"Eagle",
+        "image":"https://upload.wikimedia.org/wikipedia/commons/1/10/Aquila_adalberti.jpg",
+        "sound":"http://soundbible.com/mp3/hawk_screeching-Mike_Koenig-1626170357.mp3",
+        "color":"#fad3c0"
       }
     ]
   },
@@ -299,11 +327,22 @@ $(document).ready(function(){
     ]
   },
   {
+    multi:[
+    {
     "letter":"j",
     "label":"Jellyfish",
     "image":"https://upload.wikimedia.org/wikipedia/commons/4/44/Jelly_cc11.jpg",
     "textSound":"Blub Blub",
     "color":"#2196f3"
+    },
+    {
+    "letter":"j",
+    "label":"Jaguar",
+    "image":"https://upload.wikimedia.org/wikipedia/commons/f/f8/Jaguar_%28Panthera_onca_palustris%29_male_Rio_Negro_2.JPG",
+    "sound":"sound/jaguar2.mp3",
+    "color":"#e0be9d"
+    }
+    ]
   },
   {
     multi:[
@@ -344,6 +383,13 @@ $(document).ready(function(){
     "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Amur_Leopard_%28219987133%29.jpeg/1280px-Amur_Leopard_%28219987133%29.jpeg",
     "sound":"https://www.google.com/logos/fnbx/animal_sounds/leopard.mp3",
     "color":"gold"
+    },
+    {
+    "letter":"l",
+    "label":"Lemur",
+    "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Ringtailedlemur_-_24937.jpg/1280px-Ringtailedlemur_-_24937.jpg",
+    "sound":"sound/lemur.mp3",
+    "color":"#9d968a"
     }
 
     ]
@@ -504,7 +550,8 @@ $(document).ready(function(){
     {
     "letter":"s",
     "label":"Stork",
-    "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/White_Stork.jpg/1280px-White_Stork.jpg"
+    "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/White_Stork.jpg/1280px-White_Stork.jpg",
+    "sound":"http://soundbible.com/mp3/Thousands%20Of%20Wood%20Storks-SoundBible.com-796845718.mp3"
     },
     {
     "letter":"s",
@@ -529,6 +576,12 @@ $(document).ready(function(){
     "label":"Scorpion",
     "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/..._scorpion_--_Indian_red_scorpion_%284126776763%29.jpg/1280px-..._scorpion_--_Indian_red_scorpion_%284126776763%29.jpg",
     "sound":"https://www.google.com/logos/fnbx/animal_sounds/scorpion.mp3"
+    },
+    {
+    "letter":"s",
+    "label":"Squirrel",
+    "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Eastern_Grey_Squirrel_in_St_James%27s_Park%2C_London_-_Nov_2006_edit.jpg/1280px-Eastern_Grey_Squirrel_in_St_James%27s_Park%2C_London_-_Nov_2006_edit.jpg",
+    "sound":"sound/SQ2.mp3"
     }
     ]
   },
@@ -545,6 +598,12 @@ $(document).ready(function(){
     "label":"Turkey",
     "image":"https://upload.wikimedia.org/wikipedia/commons/2/20/TurkeyBird_in_Sant%27Alessio.JPG",
     "sound":"https://www.google.com/logos/fnbx/animal_sounds/turkey.mp3"
+    },
+    {
+    "letter":"t",
+    "label":"Tawny Frogmouth",
+    "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Tawny-Frogmouth-Brisbane-Forest-Park-1.JPG/1024px-Tawny-Frogmouth-Brisbane-Forest-Park-1.JPG",
+    "sound":"https://www.xeno-canto.org/sounds/uploaded/EHGWCIGILC/XC434366-Frogmouth_Tawny_Drumming_SD521_Artemis_Night2a_26thAug18.mp3"
     }
     ]
   },
@@ -553,7 +612,8 @@ $(document).ready(function(){
     {
     "letter":"u",
     "label":"Upupa",
-    "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Common_Hoopoe_Upupa_epops_by_Dr._Raju_Kasambe_DSCN1570_%282%29.jpg/1280px-Common_Hoopoe_Upupa_epops_by_Dr._Raju_Kasambe_DSCN1570_%282%29.jpg"
+    "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Common_Hoopoe_Upupa_epops_by_Dr._Raju_Kasambe_DSCN1570_%282%29.jpg/1280px-Common_Hoopoe_Upupa_epops_by_Dr._Raju_Kasambe_DSCN1570_%282%29.jpg",
+    "sound":"https://www.xeno-canto.org/sounds/uploaded/QAJPWEPSTL/XC417570-wiedeh0608.mp3"
     },
     {
     "letter":"u",
@@ -661,7 +721,7 @@ $(document).ready(function(){
   },
   ];
   
-  var displayAll=true;
+  var displayAll=false;
   
   for(var i = 0,letter;(letter=letters[i]);i++){
     if(letter.multi){

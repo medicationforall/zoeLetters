@@ -2,6 +2,9 @@ https://www.freesoundeffects.com/free-sounds/animals-10013/
 baboon2.mp3
 bear_polar.mp3
 Cheetah4.mp3
+coyote1.mp3
+crocodile5
+dolphin1.mp3
 
 https://archive.org/details/animal_sounds
 fox_calls.mp3
