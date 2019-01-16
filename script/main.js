@@ -49,6 +49,13 @@ $(document).ready(function(){
         "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Blesbok_sa_2003.jpg/1280px-Blesbok_sa_2003.jpg",
         "sound":"https://www.google.com/logos/fnbx/animal_sounds/antelope.mp3",
         "color":"tan"
+      },
+      {
+        "letter":"a",
+        "label":"Armadillo Girdled Lizard",
+        "image":"https://i.imgur.com/LMeMlGb.jpg",
+        "sound":"sound/400573__sieuamthanh__thanglang.wav",
+        "color":"tan"
       }
     ]
   },
@@ -173,6 +180,13 @@ $(document).ready(function(){
     "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Marsh_Crocodiles_basking_in_the_sun.JPG/1280px-Marsh_Crocodiles_basking_in_the_sun.JPG",
     "sound":"sound/crocodile5.mp3",
     "color":"#d9dad8"
+    },
+    {
+    "letter":"c",
+    "label":"Coconut Crab",
+    "image":"http://ourmarinespecies.com/wp-content/uploads/2018/08/coconut_crabs-1.jpg",
+    "sound":"sound/201228__augdog__crab.wav",
+    "color":"#8fc8fc"
     }
     ]
   },
@@ -312,6 +326,13 @@ $(document).ready(function(){
         "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Hyene_amneville.JPG/1280px-Hyene_amneville.JPG",
         "sound":"https://www.google.com/logos/fnbx/animal_sounds/hyena.mp3",
         "color":"#cfc4b3"
+      },
+      {
+        "letter":"h",
+        "label":"Harpy Eagle",
+        "image":"https://upload.wikimedia.org/wikipedia/commons/9/9c/Harpy_Eagle_%286035434189%29.jpg",
+        "sound":"https://www.xeno-canto.org/sounds/uploaded/HALXQIMTRP/XC194725-Harpy-Eagle-Juvenile-Imataca-Venezuela-Pritam-Baruah.mp3",
+        "color":"#cfc4b3"
       }
     ]
   },
@@ -413,11 +434,21 @@ $(document).ready(function(){
     ]
   },
   {
-    "letter":"n",
+    multi:[
+    {
+      "letter":"n",
     "label":"Nautilus",
     "image":"https://upload.wikimedia.org/wikipedia/commons/d/d5/Nautilus_Palau.JPG",
     "sound":"http://alphabetimals.com/wp-content/uploads/sounds/x-sound.mp3",
     "color":"#2196f3"
+    },
+    {"letter":"n",
+    "label":"Northern Saw-whet Owls",
+    "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Aegolius_acadicus_-Fossil%2C_Oregon%2C_USA_-juvenile-8.jpg/1280px-Aegolius_acadicus_-Fossil%2C_Oregon%2C_USA_-juvenile-8.jpg",
+    "sound":"https://www.xeno-canto.org/sounds/uploaded/MDZVOPUOXU/XC446701-181215_05.northern.saw-whet.owl.mt.wilson.toll.rd.lance.benner.mp3",
+    "color":"#d28b5b"
+    }
+    ]
   },
   {
     multi:[
@@ -582,6 +613,18 @@ $(document).ready(function(){
     "label":"Squirrel",
     "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Eastern_Grey_Squirrel_in_St_James%27s_Park%2C_London_-_Nov_2006_edit.jpg/1280px-Eastern_Grey_Squirrel_in_St_James%27s_Park%2C_London_-_Nov_2006_edit.jpg",
     "sound":"sound/SQ2.mp3"
+    },
+    {
+    "letter":"s",
+    "label":"Secretary Bird",
+    "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Sagittarius_serpentarius_Sekret%C3%A4r.JPG/745px-Sagittarius_serpentarius_Sekret%C3%A4r.JPG",
+    "sound":"https://www.xeno-canto.org/sounds/uploaded/YTUXOCTUEM/XC451525-Sagittarius_serpentarius-FL%20calls%20Samburu%20NP%2018Nov18%208.39am%20LS112540a.mp3"
+    },
+    {
+    "letter":"s",
+    "label":"Stringray",
+    "image":"https://i.redd.it/5p1jnvktkna21.jpg",
+    "sound":"sound/170012__wescwave__underwater5-06-09-2012.wav"
     }
     ]
   },

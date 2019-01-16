@@ -10,3 +10,9 @@ https://archive.org/details/animal_sounds
 fox_calls.mp3
 laughing_kookaburra_birds.mp3
 warbling_vireo.mp3
+
+
+https://freesound.org/
+201228__augdog__crab.wav
+170012__wescwave__underwater5-06-09-2012.wav
+400573__sieuamthanh__thanglang.wav
